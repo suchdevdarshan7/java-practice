@@ -2,7 +2,6 @@ Write a Java program to find maximum between two numbers.
 Write a Java program to find maximum between three numbers.
 Write a Java program to check whether a number is negative, positive or zero.
 Write a Java program to check whether a number is divisible by 5 and 11 or not.
-Write a Java program to check whether a number is even or odd.
 
 Write a Java program to calculate profit or loss.
 

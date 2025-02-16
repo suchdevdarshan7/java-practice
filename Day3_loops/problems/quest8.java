@@ -7,7 +7,7 @@ public class quest8 {
         boolean flag = false;
 
         if (testingNumber == 0 || testingNumber == 1) {
-            System.out.println("The number is neither prime nor composite!");
+            System.out.printf("%d is neither prime nor composite!", testingNumber);
             sc.close();
             return;
         }
@@ -24,6 +24,8 @@ public class quest8 {
         } else {
             System.out.println("The number is not prime");
         }
+
+        sc.close();
 
     }
 }

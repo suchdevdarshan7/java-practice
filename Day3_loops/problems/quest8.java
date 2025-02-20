@@ -6,25 +6,6 @@ public class quest8 {
         int testingNumber = sc.nextInt();
         boolean flag = false;
 
-        if (testingNumber == 0 || testingNumber == 1) {
-            System.out.printf("%d is neither prime nor composite!", testingNumber);
-            sc.close();
-            return;
-        }
-
-        for (int i = 2; i <= Math.sqrt(testingNumber); i++) {
-            System.out.println("Iteration");
-            if (testingNumber % i == 0) {
-                flag = true;
-            }
-        }
-
-        if (!flag) {
-            System.out.println("The number is prime ");
-        } else {
-            System.out.println("The number is not prime");
-        }
-
         sc.close();
 
     }

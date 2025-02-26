@@ -27,6 +27,7 @@ public class Introduction {
         // System.out.println("]");
 
         int marks[] = { 100, 90, 88, 60, 74 };
+        // ! For each loop : Simple way to print
         for (int element : marks) {
             System.out.println(element);
         }
